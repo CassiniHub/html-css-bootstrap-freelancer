@@ -214,6 +214,7 @@ header .navbar-default .navbar-nav > li > a:hover {
   margin-bottom: 30px;
 }
 
+/* TITLE */
 #portfolio h2{
   margin: 0 auto;
   font-weight: 600;
@@ -246,6 +247,15 @@ header .navbar-default .navbar-nav > li > a:hover {
 
   vertical-align: middle;
 }
+
+#portfolio .ms_image_container img{
+  border-radius: 1rem;
+}
+
+#portfolio .ms_mb{
+  margin-bottom: 3rem;
+}
+/* ROW LINKS */
 
 /* ------------------------------------ */
 
