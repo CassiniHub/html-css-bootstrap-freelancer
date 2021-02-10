@@ -85,6 +85,11 @@ body {
 }
 
 @media all and (max-width: 768px) {
+  .ms_container_xs{
+    margin: 0 auto;
+    max-width: 540px;
+  }
+
   /* JUMBOTRON */
   #ms_jumbotron .start_bootstrap h1{
     font-size: 5rem;
@@ -98,6 +103,22 @@ body {
   #portfolio h2{
     font-size: 4rem;
   }
+
+  #portfolio .ms_image_container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ms_container_img_xs{
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  #portfolio .ms_image_container img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 /* ------------------------------------ */
