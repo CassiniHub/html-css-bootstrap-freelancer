@@ -36,10 +36,41 @@ body {
 
 /* ------------------------------------ */
 
+@media all and (min-width: 1201px) {
+  /* JUMBOTRON */
+  #ms_jumbotron .start_bootstrap h1{
+    font-size: 7rem;
+  }
+
+
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  /* JUMBOTRON */
+  #ms_jumbotron .start_bootstrap h1{
+    font-size: 7rem;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  /* JUMBOTRON */
+  #ms_jumbotron .start_bootstrap h1{
+    font-size: 7rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  /* JUMBOTRON */
+  #ms_jumbotron .start_bootstrap h1{
+    font-size: 3rem;
+  }
+}
+
+/* ------------------------------------ */
+
 /* HEADER */
 header{
   background-color: #2c3e50;
-  margin-bottom: 30px;
 }
 
 /* NAV */
@@ -73,7 +104,7 @@ header .navbar-default .navbar-nav > li > a {
     font-size: 1.7rem;
 }
 
-.navbar-default .navbar-nav > li > a:focus{
+header .navbar-default .navbar-nav > li > a:focus{
   color: white;
 }
 
@@ -84,8 +115,61 @@ header .navbar-default .navbar-nav > li > a:hover {
 /* ------------------------------------ */
 
 /* JUMBOTRON */
-#jumbotron{
+#ms_jumbotron{
+  color: white;
+  background-color: #1abc9c;
+
   margin-bottom: 30px;
+  padding: 90px 0;
+}
+
+#ms_jumbotron .start_bootstrap{
+  text-align: center;
+}
+
+#ms_jumbotron .start_bootstrap img{
+  max-width: 240px;
+
+  margin-bottom: 40px;
+}
+
+#ms_jumbotron .start_bootstrap h1{
+  color: white;
+  font-size: 7rem;
+  font-weight: bold;
+
+  margin: 0 auto;
+}
+
+.divider{
+  width: 70%;
+
+  margin: 20px auto;
+}
+
+.divider-line{
+  display: inline-block;
+  background-color: white;
+
+  width: 20%;
+  height: 5px;
+  border-radius: 1rem;
+  vertical-align: middle;
+}
+
+.divider-icon{
+  display: inline-block;
+
+  font-size: 3.5rem;
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+  vertical-align: middle;
+}
+
+#ms_jumbotron .start_bootstrap p{
+  font-size: 2.5rem;
 }
 
 
