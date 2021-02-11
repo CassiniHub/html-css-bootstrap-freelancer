@@ -508,6 +508,9 @@ footer .ms_footer_col li a{
 
   height: 50px;
   width: 50px;
+  line-height: 50px;
+
+  border-radius: 50%;
 }
 
 footer .ms_footer_col li{
@@ -523,9 +526,6 @@ footer .ms_footer_col li{
 
 footer .ms_footer_col li:hover a{
   color: black;
-}
-
-footer .ms_footer_col li:hover {
   background-color: white;
 }
 
